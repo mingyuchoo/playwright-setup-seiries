@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test:e2e": "jest -c jest.e2e.config.js",
+    "test:headless": "jest -c jest.e2e-headless.config.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,9 @@
   "devDependencies": {
     "jest": "^27.0.4",
     "jest-playwright-preset": "^1.6.1",
-    "playwright": "^1.12.2"
+    "playwright": "^1.12.2",
+    "playwright-chromium": "^1.12.2",
+    "playwright-firefox": "^1.12.2",
+    "playwright-webkit": "^1.12.2"
   }
 }
