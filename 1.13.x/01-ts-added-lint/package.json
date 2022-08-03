@@ -1,5 +1,5 @@
 {
-  "name": "00-es5-initial",
+  "name": "01-ts-added-lint",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

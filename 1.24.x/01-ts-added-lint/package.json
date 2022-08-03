@@ -1,0 +1,29 @@
+{
+  "name": "01-ts-added-lint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --config .eslintrc.yaml --fix .",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:chrome": "npx playwright test --project=chrome",
+    "test:msedge": "npx playwright test --project=msedge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.24.2",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2"
+  }
+}
